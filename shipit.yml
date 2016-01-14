@@ -1,0 +1,6 @@
+dependencies:
+  override: []
+deploy:
+  timeout: 30
+  override:
+    - "echo 'GOING TO SLEEP ZZ'; sleep 61"
