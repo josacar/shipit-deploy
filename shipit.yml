@@ -3,4 +3,5 @@ dependencies:
 deploy:
   timeout: 30
   override:
-    - "echo 'GOING TO SLEEP ZZ'; sleep 61"
+    - "echo 'GOING TO SLEEP ZZ'; sleep 61":
+      timeout: 30
